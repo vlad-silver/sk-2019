@@ -29,7 +29,7 @@ curl
 
 Efekt
 ```
-Komputery dostają od siebie komunikaty
+Komputery dostają komunikaty
 ```
 
 Statyczna konfiguracja parametrów połączenia
