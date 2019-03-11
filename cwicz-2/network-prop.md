@@ -2,10 +2,11 @@ Ustawianie parametrów sieci
 ---------------------------
 
 1. na 1 z komputerów zainstaluj oprogramowanie ``http-chat`` dostępne pod adresem ``https://github.com/jkanclerz/http-chat``
-apt-get install git 
+
+(apt-get install git 
 git clone https://github.com/jkanclerz/http-chat
 apt-get install python
-python httpchat.py
+python httpchat.py)
 
 Wejściowe parametry sieci
 -------------------------
