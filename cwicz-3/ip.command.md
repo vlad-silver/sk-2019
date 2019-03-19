@@ -31,10 +31,19 @@ ip
 |   ``link``    |                               |  |
 |               |   ``ip link set enp0s3 down`` | wyłącza interfejs                |
 |               |   ``ip link set enp0s3 up``   | włącza interfejs                |
-|   ``route``   |  | |
-|   ``maddr``   |  | |
-|   ``neigh``   |  | |
-|   ``help``    |  | |
+|   ``route``   |  |służy do zarządzania tablicami routingu wewnątrz jądra |
+|               |     ``ip route add``                          | dodawanie tras do wybranej tablicy routingu         |
+|               |      ``ip route list``/``ip route show``      | wyświetlania zawartości tablic routingu            |
+|               |            ``ip route get``                   | znalezienie trasy do danego adresu                  |
+|   ``maddr``   |  |wyświetla i pozwala zarządzać multicast IP |
+|               |            ``ip maddr``                   | wyświetla informacje dla wszystkich urządzeń                |
+|               |            ``ip maddr show dev enp0s3``                   | wyświetla informacje dla urządzenia enp0s3                |
+|   ``neigh``   |  |zarządzanie i wyświetlanie tablicy sąsiedztwa |
+|               |            ``ip neigh``                   | wyświetla tablice sąsiedztwa                |
+|               |            ``ip neigh add/del``                   | dodaje lub usuwa pojedynczy wpis                 |
+|               |            ``ip neigh change``                   | zmienia istniejący wpis                |
+|               |            ``ip neigh show``                   | wyświetlanie zawartości tablicy sąsiedztwa                |
+|   ``help``    |  |wyświetla listę komend i argumentów dla każdej podkomendy |
 
 Zadanie
 ------------
