@@ -87,7 +87,7 @@ Warto wiedzieć
 | Lokalizacja pliku z konfiguracją sieci| /etc/network/interfaces | |
 | UP -> Wyłączenie interfejsu sieciowego| ifup| |
 | DOWN -> Włączenie interfejsu sieciowego| ifdown| |
-| Sprawdzenie obecnych parametrów | ip a | |
-| lista wszystkich interfejsów | ip a | |
-| Które interfejsy jakie porty słuchają | | |
+| Sprawdzenie obecnych parametrów | ip addr | |
+| lista wszystkich interfejsów | ip link show | |
+| Które interfejsy jakie porty słuchają |netstat --listen | |
 
