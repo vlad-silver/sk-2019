@@ -13,8 +13,20 @@ ip
 -------------------------
 | subcommand    |  polecenie   | opis  |
 | ------------- |:-------------| :---------------| 
-|   ``route``    |                               | |
+|   ``route``   |                               | |
 |               |   ``ip route add``             | |
+|               |   ``ip route add default via 10.0.10.1 dev enp0s3``             | |
+|               |   ``ip route show``             | |
+|               |   ``ip route get 10.0.10.1``             | |
+
+
+Komendy:
+---------
+- ip route show
+- ip route add default via 10.0.10.1 dev enp0s3
+- ip route get 8.8.8.8
+
+- /proc/sys/net/ipv4/ip_forward [przekierowanie: 1-on 2-off]
 
 
 Zadanie
